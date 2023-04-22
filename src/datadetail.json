@@ -1,0 +1,8 @@
+[
+    { "id": 1, "address": "Golden cresent", "phoneNumber": "234-30-221-443" },
+    { "id": 2, "address": "Gov Road", "phoneNumber": "234-40-221-443" },
+    { "id": 3, "address": "Peter", "phoneNumber": "234-30-221-443" },
+    { "id": 4, "address": "Rose", "phoneNumber": "234-30-221-443" },
+    { "id": 5, "address": "Faith", "phoneNumber": "234-30-221-443" }
+
+]

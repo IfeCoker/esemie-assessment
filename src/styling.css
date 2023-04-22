@@ -1,9 +1,12 @@
-*{
+ * {
   margin: 0;
   padding: 0;
 }
-
-.userCard{
+body {
+  height: 100%;
+  width: 100%;
+}
+.UsersCard {
   box-sizing: border-box;
   border: 1px hidden;
   border-radius: 10px;
@@ -13,19 +16,28 @@
   padding: 20px;
   display: flex;
   flex-direction: column;
-  align-items: self-start;
-  max-width: 700px;
+  align-items: center;
+  /* justify-content: left; */
+  max-width: 400px;
   font-family: Arial, sans-serif;
+  /* position: fixed; */
 }
-
+h1 {
+  color: black;
+  margin-bottom: 10px; 
+  padding: 5px;
+} 
+.usersList {
+  margin-top: 10px;
+  padding: 2px;
+}
 .users {
   background-color: #cce5ff;
   margin: 10px;
   padding: 7px;
   border-radius: 10px;
 }
-
-.userDisplay {
-  display: flex;
-  flex-direction: row;
+li {
+  list-style: none;
+  margin-left: 5px;  
 }

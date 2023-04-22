@@ -1,24 +1,33 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+//import UsersListing from './usersList';
+//import UsersDetails from './userDetails/UsersDetail';
+import UserList from './userDetails/User';
+//import DetailList from './userDetails/MoreDetails';
+
+// import { createServer } from "miragejs";
+
+
+//   createServer({
+//   routes() {
+    
+//     this.get("/api/users", () => {
+//       return  [
+//           { id: 1, name: "John", emailAddress: "john@email.com" },
+//           { id: 2, name: "smith", emailAddress: "smith@email.com" },
+//           { id: 3, name: "Peter", emailAddress: "peter@email.com" },
+//         ]
+      
+//     })
+//   }
+// })
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {/* <UsersListing /> */}
+      <UserList />
+      {/* <DetailList /> */}
     </div>
   );
 }
