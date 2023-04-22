@@ -17,10 +17,8 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* justify-content: left; */
   max-width: 400px;
   font-family: Arial, sans-serif;
-  /* position: fixed; */
 }
 h1 {
   color: black;

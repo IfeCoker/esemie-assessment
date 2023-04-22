@@ -1,7 +1,18 @@
 import React, {useState, useEffect} from "react";
+import { createServer } from "miragejs";
+import userdata from "./userdata.json"
+import './usersList_styling.css'
 // import './App.css'
 
 //a. A list component that displays a list of users with their names and email addresses.
+
+createServer({
+      routes() {
+        this.get("/api/users", () => {
+          return userdata;      
+        })
+      }
+    })
 
 type User = {
     id: number,

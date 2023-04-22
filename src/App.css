@@ -3,7 +3,7 @@
   padding: 0;
 }
 
-.userCard{
+.userList{
   box-sizing: border-box;
   border: 1px hidden;
   border-radius: 10px;
@@ -17,15 +17,32 @@
   max-width: 700px;
   font-family: Arial, sans-serif;
 }
-
-.users {
-  background-color: #cce5ff;
-  margin: 10px;
-  padding: 7px;
-  border-radius: 10px;
-}
-
 .userDisplay {
   display: flex;
   flex-direction: row;
+  
+  width: 100%;
+  margin-top: 10px;
+}
+.users {
+  background-color: #cce5ff;
+  margin: 15px;
+  padding: 7px;
+  border-radius: 10px;  
+}
+.userCard{
+  padding: 5px;
+}
+.displayCard {
+  box-sizing: border-box;
+  border: 1px hidden;
+  padding: 10px;
+  margin: 5px;
+  width: 40%;
+}
+h2{
+  margin: 5px;
+}
+p{
+  padding: 4px;
 }

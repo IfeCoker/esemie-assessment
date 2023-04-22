@@ -1,8 +1,25 @@
 [
-    { "id": 1, "name": "John", "emailAddress": "john@email.com" },
-    { "id": 2, "name": "Smith", "emailAddress": "smith@email.com" },
-    { "id": 3, "name": "Peter", "emailAddress": "peter3@email.com" },
-    { "id": 4, "name": "Rose", "emailAddress": "rose10@email.com" },
-    { "id": 5, "name": "Faith", "emailAddress": "faith5@email.com" }
+    { "id": 1, 
+    "name": "John", 
+    "emailAddress": "john@email.com",
+    "address": "Golden cresent", 
+    "phoneNumber": "234-30-221-443" },
 
+    { "id": 2, 
+    "name": "Smith", 
+    "emailAddress": "smith@email.com",
+    "address": "Gov Road", 
+    "phoneNumber": "234-40-221-443" },
+
+    { "id": 3, 
+    "name": "Peter", 
+    "emailAddress": "peter3@email.com", 
+    "address": "Ransom kuti close", 
+    "phoneNumber": "234-30-221-443"},
+
+    { "id": 4,
+    "name": "Rose", 
+    "emailAddress": "rose10@email.com", 
+    "address": "Rose", 
+    "phoneNumber": "234-30-221-443"}
 ]
